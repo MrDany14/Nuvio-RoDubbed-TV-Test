@@ -1,0 +1,39 @@
+[
+  {
+    "video": {
+      "source": "/hls/main.m3u8",
+      "cf": "https://cf.invalid/backup.m3u8",
+      "pk": {
+        "k": "sample-key",
+        "kx": "sample-expiry"
+      },
+      "streamingConfig": "{}"
+    },
+    "encrypted": "5001a815f002b367a7e65da33361d764754b21bb985a947f1800a608d5c8d770f324c7023e3abcfa3185ebe06d7cfc238ef8c1244873f7c6e844a224473640c2cc040f6c15a22aa3f16e1c1f77595916c9508abcddff2c338e0a9ea210a77c026234160b2e0eb6d2a10b8a931febaa6c153035e52c3d090db47379909dcf687575a14bf3180e2082af20bacaa8a5a522",
+    "expectedSource": "https://seeksreaming.embedseek.com/hls/main.m3u8?k=sample-key&kx=sample-expiry"
+  },
+  {
+    "video": {
+      "source": "/hls/main.m3u8",
+      "cf": "https://cf.invalid/hls/backup.m3u8",
+      "pk": {
+        "k": "sample-key"
+      },
+      "streamingConfig": "{\"order\":[\"Cloudflare\",\"In-House\"],\"adjust\":{\"In-House\":{\"disabled\":true},\"Cloudflare\":{\"domain\":\"mirror\",\"params\":{\"mode\":\"ro\",\"level\":\"1080\"}}}}"
+    },
+    "encrypted": "5001a815f002b367a7e65da33361d764754b21bb985a947f1800a608d5c8d770f324c7023e3abcfa3185ebe06d7cfc2355c6400259ea09123ced0f4ef079fe97d2b77efc2d0dadeb14f2577f07a54339bc65ccd50f0d74b695f07bc992d1408c77915b2e4c427e2b32633bb27bf2b1d8a903eb39376cdcd57fede5fabf519828bb754596d01bb04847cfdc459448460794788c541870c088f5b8eafa7955edcc4bdbe283ab76ecaaeaa9b1e2985db326c5a62f64eee910b2a3dc9c7869c6ec235693574b110863d5c0f57a549e6368ac66e3583799cc755b44d6d766046f9427312b6520c0ddab50d087153ae9a2cfac683491d18f024e782c31fd921d78c1a519c0b1f466c86fed83482f67908b1c2d3a5b2abf42d97133791d043e434c2ca18993a48223110f98282712c83dfed06d",
+    "expectedSource": "https://cf.invalid/hlsmod/mirror/backup.m3u8?mode=ro&level=1080&k=sample-key&kx="
+  },
+  {
+    "video": {
+      "hlsVideoTiktok": "https://tiktok.invalid/one.m3u8?mode=ro",
+      "pk": {
+        "k": "key with + / chars",
+        "kx": "expiry"
+      },
+      "streamingConfig": "{}"
+    },
+    "encrypted": "1713df96b735a72597b2b0c5d00caa3984d93a6f8ed13f1d0a7f09a210aed57356599b0fb7852deff8bed243bb25e10146b5622d3be9f9c3fd083777d0bb8e4f0907686e7f6557b0d034f42f1c9aef7fbccd7c872494aa8f0bdbd3429040ccbdaf549e0fcbba140237b2a70c51da7265293b8a2f8c8880c10304ec43264d230e2129b65d80c818a919da2b001072f910",
+    "expectedSource": "https://tiktok.invalid/one.m3u8?mode=ro&k=key%20with%20%2B%20%2F%20chars&kx=expiry"
+  }
+]

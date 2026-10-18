@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed Unified Native Test",
+  "description": "Romanian-only unified native TV test; maximum three validated sources. Netu remains unverified.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/unified/plugins.json"
+  ]
+}

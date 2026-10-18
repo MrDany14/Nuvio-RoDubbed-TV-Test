@@ -1,0 +1,20 @@
+[
+  {
+    "name": "RoDubbed [Unified Native Test]",
+    "internalName": "RoDubbedUnifiedNative",
+    "description": "One native provider: shared discovery, Romanian gates, Byse/SeekStreaming/StreamP2P and experimental Netu fallback. Up to three validated sources.",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "authors": [
+      "MrDany14"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "url": "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/unified/RoDubbedUnified.cs3",
+    "fileSize": 25536,
+    "repositoryUrl": "https://github.com/MrDany14/Nuvio-RoDubbed-TV-Test"
+  }
+]

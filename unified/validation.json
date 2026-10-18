@@ -1,0 +1,48 @@
+{
+  "status": "ANDROID_API_INTEGRATION_PASS_PENDING_PHYSICAL_TV_PLAYBACK",
+  "sha256": "97fb4826c8694a5fbd39f9e01877fa02bb68ebf3104faa821ff6106661a501d7",
+  "bytes": 25536,
+  "environment": "Official Nuvio TV 1.0.0 x86 APK classes under Android TV 14 ART; app_process integration harness, not installed-app UI playback of this unified build",
+  "checks": [
+    "Romanian server declarations required; English/subtitled/unknown declarations excluded",
+    "Explicit foreign default host/HLS audio excluded",
+    "Strict title/year matching, unrelated extras excluded",
+    "Independent Node AES references and working-JS source selection cases pass",
+    "Playlist and first media-segment access checked; TLS verification retained",
+    "Maximum three results and stop unnecessary remaining work"
+  ],
+  "runs": [
+    {
+      "title": "Toy Story 5",
+      "tmdbId": 1084244,
+      "sources": [
+        "Byse",
+        "SeekStreaming",
+        "StreamP2P"
+      ],
+      "finalCandidateDiscoveryAndResolutionMs": 1383,
+      "playlistAndSegmentChecks": "PASS"
+    },
+    {
+      "title": "Sneaks / Aventura tenișilor",
+      "tmdbId": 1084153,
+      "sources": [
+        "Byse"
+      ],
+      "earlierCandidateDiscoveryAndResolutionMs": 8916,
+      "unavailableOtherHosts": "HTTP 404; excluded"
+    },
+    {
+      "title": "Fallout S01E06",
+      "tmdbId": 106379,
+      "sources": [
+        "Byse"
+      ],
+      "earlierCandidateDiscoveryAndResolutionMs": 1651,
+      "legacyFilemoonRouting": "PASS",
+      "netu": "Player explicitly reports file removed; excluded"
+    }
+  ],
+  "netuStatus": "NOT VERIFIED WORKING. Candidate code is fail-closed and needs a live test video.",
+  "physicalTvPlaybackVerified": false
+}

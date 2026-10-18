@@ -2,6 +2,10 @@
 
 Separate test repository. The original Nuvio-RoDubbed-plugin repository is unchanged.
 
+## Unified native development build
+
+The next test stage combines Byse, SeekStreaming and StreamP2P into one Romanian-only provider with a maximum of three validated sources. Netu is not yet verified working. Install the additional [unified repository](https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/unified/repo.json) and follow [unified/README.md](unified/README.md). The existing Byse-only build below remains available unchanged.
+
 ## New compiled Byse TV experiment
 
 The fresh native Android resolver found and played Sneaks through Nuvio TV 1.0.0 in an emulator, with discovery/resolution around one second. Physical Mi Box testing is still needed. Install the separate native repository URL and follow the instructions in [native/README.md](native/README.md). It runs entirely on the TV; no helper server is required.
