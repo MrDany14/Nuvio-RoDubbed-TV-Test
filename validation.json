@@ -1,0 +1,62 @@
+{
+  "scope": "Actual movie/episode HTML and seven live captured wrappers; Node VM, resolver calls intercepted before host work; not physical TV",
+  "checks": [
+    {
+      "kind": "streamp2p",
+      "title": "sneaks",
+      "wrapperRequests": 1,
+      "providerCalls": 1,
+      "status": "PASS"
+    },
+    {
+      "kind": "streamp2p",
+      "title": "fallout",
+      "wrapperRequests": 0,
+      "providerCalls": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "seekstreaming",
+      "title": "sneaks",
+      "wrapperRequests": 1,
+      "providerCalls": 1,
+      "status": "PASS"
+    },
+    {
+      "kind": "seekstreaming",
+      "title": "fallout",
+      "wrapperRequests": 0,
+      "providerCalls": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "byse",
+      "title": "sneaks",
+      "wrapperRequests": 1,
+      "providerCalls": 1,
+      "status": "PASS"
+    },
+    {
+      "kind": "byse",
+      "title": "fallout",
+      "wrapperRequests": 1,
+      "providerCalls": 1,
+      "status": "PASS"
+    },
+    {
+      "kind": "netu",
+      "title": "sneaks",
+      "wrapperRequests": 0,
+      "providerCalls": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "netu",
+      "title": "fallout",
+      "wrapperRequests": 1,
+      "providerCalls": 1,
+      "status": "PASS"
+    }
+  ],
+  "additionalChecks": "unknown labels, conflicting labels, direct destination overrides stale label for all four providers"
+}

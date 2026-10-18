@@ -1,0 +1,100 @@
+{
+  "id": "ro-rodubbed-tv-test-repo",
+  "name": "RoDubbed TV Test",
+  "version": "4.3.0",
+  "description": "Test builds: skip providers absent from a title; preserve Filemoon-to-Byse routing.",
+  "scrapers": [
+    {
+      "id": "rodubbed-tvtest-streamp2p",
+      "name": "RoDubbed StreamP2P [TV Test]",
+      "description": "StreamP2P HLS streams discovered through the Romanian catalog",
+      "version": "2.0.4",
+      "author": "MrDany14",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/nuvio-streams-streamp2p-v2.0.4.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ro"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "rodubbed-tvtest-seekstreaming",
+      "name": "RoDubbed SeekStreaming [TV Test]",
+      "description": "SeekStreaming HLS streams discovered through the Romanian catalog",
+      "version": "2.0.4",
+      "author": "MrDany14",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/nuvio-streams-seekstreaming-v2.0.4.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ro"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "rodubbed-tvtest-byse",
+      "name": "RoDubbed Byse [TV Test]",
+      "description": "Byse HLS streams discovered through the Romanian catalog",
+      "version": "2.0.11",
+      "author": "MrDany14",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/nuvio-streams-byse-v2.0.11.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ro"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "rodubbed-tvtest-netu",
+      "name": "RoDubbed Netu [TV Test]",
+      "description": "Netu HLS streams discovered through the Romanian catalog",
+      "version": "2.0.4",
+      "author": "MrDany14",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/nuvio-streams-netu-v2.0.4.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ro"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    }
+  ]
+}
