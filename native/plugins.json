@@ -1,0 +1,20 @@
+[
+  {
+    "name": "RoDubbed Byse Native [TV Test]",
+    "internalName": "RoDubbedByseNative",
+    "description": "Fresh native Byse resolver with catalog discovery, Filemoon routing, normal attestation and local proof-of-work.",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "authors": [
+      "MrDany14"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "url": "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/native/RoDubbedByseNative.cs3",
+    "fileSize": 16232,
+    "repositoryUrl": "https://github.com/MrDany14/Nuvio-RoDubbed-TV-Test"
+  }
+]

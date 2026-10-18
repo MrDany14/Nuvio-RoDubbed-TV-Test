@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed Byse Native TV Test",
+  "description": "Fresh compiled Android Byse resolver. Entirely on-device. Experimental.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/native/plugins.json"
+  ]
+}

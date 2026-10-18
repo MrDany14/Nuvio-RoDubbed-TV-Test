@@ -1,0 +1,55 @@
+{
+  "status": "PASS_IN_EMULATOR_PENDING_PHYSICAL_MI_BOX",
+  "date": "2026-10-18",
+  "artifact": "RoDubbedByseNative.cs3",
+  "sha256": "e7a1b5fdc887cfab39de3fcfe8cd7a71ab4ca0befb1b339dcd8b83b54b3a766d",
+  "bytes": 16232,
+  "environment": {
+    "app": "Official Nuvio TV 1.0.0 x86 APK",
+    "android": "Android TV 14 emulator, API 34",
+    "physicalMiBoxTested": false,
+    "oldJavaScriptPlaybackProvidersEnabledDuringAppTest": false
+  },
+  "checks": {
+    "independentPublicPlayerHashReferenceVectors": 1000,
+    "fullAndFirstWordHashOutput": "PASS on JVM and Android ART",
+    "nativeAttestationAndRequiredChallengeVerification": "PASS",
+    "authenticatedAesGcmAndHlsPlaylistHttp200": "PASS",
+    "realApkMovieAndEpisodeMetadataModels": "PASS",
+    "realAppNativeExtensionLoading": "PASS",
+    "realAppMovieDiscoveryAndPlayback": "PASS",
+    "realAppEpisodeSelectionAndFilemoonRouting": "PASS",
+    "existingJavaScriptManifestAndProviders": "UNCHANGED"
+  },
+  "realAppRuns": [
+    {
+      "title": "Sneaks / Aventura tenișilor (2025)",
+      "tmdbId": 1084153,
+      "sources": 1,
+      "quality": "1080p",
+      "metadataMs": 57,
+      "discoveryAndResolutionMs": 967,
+      "powAttempts": 6004,
+      "powMs": 47,
+      "playbackObservedPositionMs": 31671,
+      "playbackBufferedPositionMs": 81720,
+      "playbackErrorAtObservation": null
+    },
+    {
+      "title": "Fallout S01E06",
+      "tmdbId": 106379,
+      "sources": 1,
+      "quality": "1080p",
+      "metadataMs": 91,
+      "discoveryAndResolutionMs": 749,
+      "powAttempts": 239,
+      "powMs": 6,
+      "sustainedEpisodePlaybackSeparatelyTested": false
+    }
+  ],
+  "benchmark": {
+    "compiledAndroidHashesPerSecondApprox": 187000,
+    "previousSameEmulatorQuickJsHashesPerSecond": 2052,
+    "note": "Microbenchmark; not a physical Mi Box result or a fixed resolution-time guarantee."
+  }
+}

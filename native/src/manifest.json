@@ -1,0 +1,7 @@
+{
+  "name": "RoDubbed Byse Native [TV Test]",
+  "pluginClassName": "ByseNativePlugin",
+  "version": 1,
+  "apiVersion": 1,
+  "requiresResources": false
+}

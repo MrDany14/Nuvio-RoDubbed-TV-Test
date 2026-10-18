@@ -2,6 +2,14 @@
 
 Separate test repository. The original Nuvio-RoDubbed-plugin repository is unchanged.
 
+## New compiled Byse TV experiment
+
+The fresh native Android resolver found and played Sneaks through Nuvio TV 1.0.0 in an emulator, with discovery/resolution around one second. Physical Mi Box testing is still needed. Install the separate native repository URL and follow the instructions in [native/README.md](native/README.md). It runs entirely on the TV; no helper server is required.
+
+https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/native/repo.json
+
+## Existing JavaScript test repository
+
 Add this manifest in Nuvio:
 
 https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/manifest.json
@@ -32,4 +40,4 @@ Refresh this test repository, find **Byse Device Check [NOT VIDEO]**, and select
 
 Nuvio may label these reports as "3 streams" with green checks. They are diagnostic reports, not playable video sources. The tool does not solve a full challenge or attempt playback. Its diagnostic media type excludes it from ordinary movie/TV searches; it runs entirely on the device.
 
-This release adds only the diagnostic tool. The four playback providers are unchanged, and this is not a Mi Box playback fix. The tool was tested in the official Nuvio TV 1.0.0 x86 APK: signing succeeded, approximately 2,052 hashes/second, and details/attestation/challenge requests succeeded. These emulator measurements do not establish performance on a physical Mi Box. See device-check-validation.json.
+The JavaScript manifest 4.3.1 adds only the diagnostic tool. The four JavaScript playback providers are unchanged, and this diagnostic is not a Mi Box playback fix. The tool was tested in the official Nuvio TV 1.0.0 x86 APK: signing succeeded, approximately 2,052 hashes/second, and details/attestation/challenge requests succeeded. These emulator measurements do not establish performance on a physical Mi Box. See device-check-validation.json.
