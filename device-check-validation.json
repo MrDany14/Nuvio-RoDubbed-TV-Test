@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "normal movie requests return empty without HTTP",
+    "valid signing independently verified",
+    "CPU report returned",
+    "four normal API requests and no full challenge solution",
+    "HTTP 403 is reported",
+    "missing BigInt initialization error is reported",
+    "all entries explicitly diagnostic"
+  ],
+  "nativeValidation": "Also executed in official Nuvio TV 1.0.0 x86 APK: signing OK; 2052 hashes/s; details/attestation/challenge OK in 325ms; all three reports visible. Not yet run on user Mi Box."
+}

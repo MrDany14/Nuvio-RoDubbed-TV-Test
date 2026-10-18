@@ -1,7 +1,7 @@
 {
   "id": "ro-rodubbed-tv-test-repo",
   "name": "RoDubbed TV Test",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "description": "Test builds: skip providers absent from a title; preserve Filemoon-to-Byse routing.",
   "scrapers": [
     {
@@ -95,6 +95,18 @@
       "limited": false,
       "disabledPlatforms": [],
       "supportsExternalPlayer": true
+    },
+    {
+      "id": "rodubbed-tvtest-byse-device-check",
+      "name": "Byse Device Check [NOT VIDEO]",
+      "description": "Use Test for runtime, CPU and API diagnostic reports. No playable streams; excluded from normal searches.",
+      "version": "1.0.0",
+      "author": "MrDany14",
+      "supportedTypes": [
+        "diagnostic"
+      ],
+      "filename": "providers/byse-device-check-v1.0.0.js",
+      "enabled": true
     }
   ]
 }

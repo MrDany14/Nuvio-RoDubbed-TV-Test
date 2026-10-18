@@ -24,4 +24,12 @@ Filtering begins once the correct title page has been found. Each independent pl
 
 Eight routing cases passed using actual title HTML and seven captured live wrappers. Additional cases cover unknown labels, conflicting labels, and direct destinations overriding labels. Eight routing cases also passed in WASM QuickJS using JavaScript extracted from Nuvio Android TV's PluginRuntime; native HTTP and DOM calls were modeled, and provider calls were intercepted before host work. No physical TV playback was verified. See validation.json.
 
-Provider versions: StreamP2P 2.0.4, SeekStreaming 2.0.4, Netu 2.0.4, Byse 2.0.11. Repository manifest 4.3.0.
+Provider versions: StreamP2P 2.0.4, SeekStreaming 2.0.4, Netu 2.0.4, Byse 2.0.11. Repository manifest 4.3.1.
+
+## Mi Box device check
+
+Refresh this test repository, find **Byse Device Check [NOT VIDEO]**, and select **Test**. After it finishes, press Down once to bring the three reports into view and send a photo. They report signing support, custom-hash speed, and the last successful Byse API stage.
+
+Nuvio may label these reports as "3 streams" with green checks. They are diagnostic reports, not playable video sources. The tool does not solve a full challenge or attempt playback. Its diagnostic media type excludes it from ordinary movie/TV searches; it runs entirely on the device.
+
+This release adds only the diagnostic tool. The four playback providers are unchanged, and this is not a Mi Box playback fix. The tool was tested in the official Nuvio TV 1.0.0 x86 APK: signing succeeded, approximately 2,052 hashes/second, and details/attestation/challenge requests succeeded. These emulator measurements do not establish performance on a physical Mi Box. See device-check-validation.json.
