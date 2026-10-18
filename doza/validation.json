@@ -1,0 +1,46 @@
+{
+  "bytes": 25998,
+  "sha256": "08ab0b57967bfc6e1409fd00600b62fa393d76e3472f04723717b89cb243ca2b",
+  "environment": "Actual official Nuvio TV1.0.0 APK classes on Android TV14 ART, app_process integration tests, not installed-app playback",
+  "unitTests": "PASS original host/language tests and Doza strict title/year, subtitle exclusion, recommendation isolation, supported-host deduplication",
+  "runs": [
+    {
+      "title": "Un Show Obisnuit: Casetele Pierdute S01E01",
+      "tmdbId": 256695,
+      "sources": [
+        "Byse | DeseneFaine",
+        "Vidmoly | DozaAnimata"
+      ],
+      "finalLookupMs": 2688,
+      "playlistAndInitialSegmentChecks": "PASS"
+    },
+    {
+      "title": "Wednesday S01E01",
+      "site": "DozaAnimata",
+      "sources": [
+        "Vidmoly"
+      ],
+      "playlistAndInitialSegmentChecks": "PASS",
+      "audio": "User confirms both website hosts have Romanian audio"
+    },
+    {
+      "title": "Avatar: Aang The Last Airbender (2026)",
+      "site": "DozaAnimata",
+      "result": "Explicitly subtitled; excluded before resolving players"
+    },
+    {
+      "title": "Toy Story5",
+      "sources": [
+        "Byse",
+        "SeekStreaming",
+        "StreamP2P"
+      ],
+      "lookupMsBeforeFinalEpisodeLabelGuard": 3059,
+      "playlistAndInitialSegmentChecks": "PASS"
+    }
+  ],
+  "playmogo": "Browser loads DoodStream player; direct Android and Node requests HTTP403. Not a language exclusion. Unsupported in this build; no borrowed browser cookies/helper server.",
+  "netu": "Deferred and excluded",
+  "exactBuildPhysicalTvPlaybackVerified": false,
+  "officialRelease": "Unchanged"
+}

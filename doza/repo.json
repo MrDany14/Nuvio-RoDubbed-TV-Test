@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed Doza Test",
+  "description": "Native TV test combining DeseneFaine with Romanian-dubbed DozaAnimata/Vidmoly. Playmogo and Netu excluded.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/doza/plugins.json"
+  ]
+}

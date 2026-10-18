@@ -1,0 +1,7 @@
+{
+  "name": "RoDubbed [Doza Test]",
+  "pluginClassName": "RoDubbedPlugin",
+  "version": 1,
+  "apiVersion": 1,
+  "requiresResources": false
+}
