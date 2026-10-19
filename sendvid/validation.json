@@ -1,44 +1,15 @@
 {
-  "version": 1,
-  "bytes": 32187,
-  "sha256": "349d7d5a6344f017e2a6d66fc3ed5c69c8e503d9cb5cc3e862cc13a7e49d0e9d",
-  "environment": "Android TV 14 ART, official Nuvio TV 1.0.0 APK classes in app_process integration harness; not installed-app playback",
-  "baseline": "Official v4 8d85d22",
-  "unitTests": "PASS Sendvid URL/media identity, signed parameters, ad rejection, MP4 header checks, original language/host fixtures, Doza/Desene title safeguards",
+  "version": 2,
+  "bytes": 31378,
+  "sha256": "c4ace1ffc186117916062b7add9bfd118ec89df63e7a59a2ee47d91a25d2dc28",
+  "baseline": "Official v4 8d85d22; all production Java sources byte-identical except test provider display name",
   "sendvid": {
-    "host": "Sendvid",
-    "site": "DozaAnimata",
-    "linkType": "VIDEO",
-    "supportedCandidates": 1,
-    "mp4HeaderValidated": true,
-    "ms": 3600,
-    "playbackTested": false
+    "enabled": false,
+    "physicalTvPlayback": "FAILED: user confirms a five-second video saying \"This video is temporary unavailable\"",
+    "diagnostic": "A valid MP4 error clip passed the earlier first-4KB ftyp check. Container validation cannot establish that media contains the requested episode.",
+    "action": "Removed Sendvid discovery, dispatch, extractor and MP4 support from this test build."
   },
-  "fullProvider": {
-    "title": "Tiny Toons Looniversity / Looniversitatea Micutilor",
-    "tmdbId": 155779,
-    "season": 1,
-    "episode": 8,
-    "sources": [
-      "Sendvid | RO Dub | DozaAnimata"
-    ],
-    "lookupMs": 3036,
-    "metadataAndNativeLink": true
-  },
-  "existingHostsRegression": {
-    "title": "Toy Story 5",
-    "tmdbId": 1084244,
-    "sources": [
-      "Byse",
-      "SeekStreaming",
-      "StreamP2P"
-    ],
-    "lookupMs": 1265,
-    "playlistAndInitialSegmentChecks": "PASS"
-  },
-  "physicalTvPlaybackVerified": false,
-  "audio": "Publisher page declares Romanian dubbing; spoken audio not listened to in this test",
-  "netu": "Excluded; not requested",
-  "playmogo": "Excluded",
-  "officialRelease": "Unchanged at v4"
+  "officialRelease": "Unchanged at v4",
+  "netu": "Still excluded",
+  "playmogo": "Still excluded"
 }

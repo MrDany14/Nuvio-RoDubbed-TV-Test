@@ -1,17 +1,7 @@
-# RoDubbed Sendvid test
+# Sendvid test withdrawn
 
-This isolated test adds Sendvid MP4 support to official v4. The official repository remains unchanged. Existing test builds are preserved.
+**Update to test version 2, or disable this test provider and use the official RoDubbed provider.** Sendvid has been removed after the user confirmed that the returned video is a five-second clip saying the video is temporarily unavailable.
 
-Install this repository in **Nuvio TV**:
+The earlier MP4-header validation accepted the valid MP4 error clip. It established container reachability, not the identity or availability of the requested episode.
 
-```text
-https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/sendvid/repo.json
-```
-
-Enable **RoDubbed [Sendvid Test]** and temporarily disable other RoDubbed providers to identify the test result. Search **Tiny Toons Looniversity** (Romanian title **Looniversitatea Micuților**), season 1, episode 8. The source should be **Sendvid | RO Dub | DozaAnimata**. Check that it plays and that the spoken audio is Romanian.
-
-The native Android integration test found exactly one supported source for that episode in about 3 seconds. It fetched a fresh signed MP4 address, validated the first 4096 bytes, and built a native VIDEO link. Actual Mi Box playback has not been verified. Signed URLs are fetched fresh on each lookup.
-
-Existing Toy Story 5 Byse, SeekStreaming and StreamP2P sources still pass playlist/initial-segment tests. The provider still returns at most three sources across DeseneFaine and DozaAnimata. Netu and Playmogo remain excluded.
-
-Only Sendvid’s own player video element and matching media-file identity are accepted; advertising scripts are not executed. MP4 responses are validated separately from HLS.
+Version 2 restores the proven official v4 resolver behavior under the existing test provider identity so installed test copies can update. Sendvid, Netu and Playmogo are excluded. The official repository and all other test providers are unchanged.

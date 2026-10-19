@@ -19,7 +19,7 @@ public final class RoDubbedProvider extends TmdbProvider {
     }
     static List<NativeCatalog.Candidate> order(List<NativeCatalog.Candidate> found){
         List<NativeCatalog.Candidate> ordered=new ArrayList<>();
-        for(int pass=0;pass<2;pass++)for(String host:Arrays.asList("Byse","SeekStreaming","StreamP2P","VOE","Vidmoly","Sendvid")){
+        for(int pass=0;pass<2;pass++)for(String host:Arrays.asList("Byse","SeekStreaming","StreamP2P","VOE","Vidmoly")){
             int n=0;for(NativeCatalog.Candidate c:found)if(c.host.equals(host)){if(n++==pass){ordered.add(c);break;}}
         }
         return ordered;
@@ -66,13 +66,12 @@ public final class RoDubbedProvider extends TmdbProvider {
         }else if(c.host.equals("SeekStreaming")||c.host.equals("StreamP2P")){stream=SharedPlayerClient.resolve(c);checked=true;}
         else if(c.host.equals("VOE"))stream=VoeClient.resolve(c);
         else if(c.host.equals("Vidmoly"))stream=VidmolyClient.resolve(c);
-        else if(c.host.equals("Sendvid"))stream=SendvidClient.resolve(c);
         else throw new Exception("Unsupported host");
-        if(!checked){if(stream.isHls)HlsProbe.validate(stream);else Mp4Probe.validate(stream);}return new ResolvedStream(stream.host,stream.url,stream.referer,stream.identity,stream.quality,DozaCatalog.siteUrl(c.page)?"DozaAnimata":"DeseneFaine",stream.isHls);
+        if(!checked)HlsProbe.validate(stream);return new ResolvedStream(stream.host,stream.url,stream.referer,stream.identity,stream.quality,DozaCatalog.siteUrl(c.page)?"DozaAnimata":"DeseneFaine");
     }
     static Object makeLink(ResolvedStream stream)throws Exception{
         Constructor<?> c=Class.forName("com.lagradost.cloudstream3.utils.ExtractorLink").getConstructor(String.class,String.class,String.class,String.class,int.class,boolean.class,Map.class,String.class);
         Map<String,String> headers=NativeHttp.headers(stream.referer);headers.put("User-Agent",ByseClient.USER_AGENT);
-        return c.newInstance("RoDubbed",stream.host+" | RO Dub | "+stream.site,stream.url,stream.referer,stream.quality,stream.isHls,headers,null);
+        return c.newInstance("RoDubbed",stream.host+" | RO Dub | "+stream.site,stream.url,stream.referer,stream.quality,true,headers,null);
     }
 }

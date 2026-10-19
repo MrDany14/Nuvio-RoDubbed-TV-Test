@@ -30,7 +30,6 @@ final class NativeCatalog {
             if(host.matches("(?:streamp2p|p2pplay)\\..*"))return "StreamP2P";
             if(host.matches("(?:seekstream(?:ing)?|seeksreaming|embedseek)\\..*"))return "SeekStreaming";
             if(host.equals("vidmoly.org")||host.equals("vidmoly.net"))return "Vidmoly";
-            if(host.equals("sendvid.com")&&new URL(url).getPath().matches("/embed/[a-zA-Z0-9]+/?"))return "Sendvid";
             if(host.equals("voe.sx")||host.equals("voe.to"))return "VOE";
                     }catch(Exception ignored){}return "";
     }

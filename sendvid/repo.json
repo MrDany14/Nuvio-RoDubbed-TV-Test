@@ -1,6 +1,6 @@
 {
   "name": "RoDubbed Sendvid Test",
-  "description": "Native TV test adding Sendvid MP4 to the proven official v4 catalog and hosts.",
+  "description": "Sendvid test withdrawn: update v2 removes Sendvid and restores official v4 host behavior.",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/sendvid/plugins.json"
