@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed FilmeDublate Test",
+  "description": "Isolated native TV test for Romanian-dubbed FilmeDublate titles.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/fd/plugins.json"
+  ]
+}

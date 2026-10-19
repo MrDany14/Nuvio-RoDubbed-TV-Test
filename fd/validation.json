@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "bytes": 38531,
+  "sha256": "e370a8e4fc4ec12c00e6e9017d959318f8cd61fb0988c166c2b15d487b053af1",
+  "environment": "Android TV14 ART, Nuvio TV1.0.0 APK classes via app_process; not installed-app playback",
+  "scope": "FilmeDublate only; other catalogs not queried",
+  "unitTests": "PASS title/year/dubbing, exact requested episodes, Streamtape literal parser/video identity/site provenance and existing host/crypto/language fixtures",
+  "checks": {
+    "addressesPassed": 6,
+    "total": 6,
+    "streamsPassed": 8,
+    "results": [
+      {
+        "title": "Vaiana",
+        "addressPass": true,
+        "streams": [
+          {
+            "host": "Byse",
+            "pass": true,
+            "format": "M3U8"
+          },
+          {
+            "host": "Streamtape",
+            "pass": true,
+            "format": "VIDEO"
+          }
+        ],
+        "ms": 1369
+      },
+      {
+        "title": "Povestea jucăriilor 5",
+        "addressPass": true,
+        "streams": [
+          {
+            "host": "Byse",
+            "pass": true,
+            "format": "M3U8"
+          },
+          {
+            "host": "Streamtape",
+            "pass": true,
+            "format": "VIDEO"
+          }
+        ],
+        "ms": 1214
+      },
+      {
+        "title": "72 DE ORE",
+        "addressPass": true,
+        "streams": [
+          {
+            "host": "Byse",
+            "pass": true,
+            "format": "M3U8"
+          }
+        ],
+        "ms": 941
+      },
+      {
+        "title": "Iubire la birou",
+        "addressPass": true,
+        "streams": [
+          {
+            "host": "Byse",
+            "pass": true,
+            "format": "M3U8"
+          }
+        ],
+        "ms": 985
+      },
+      {
+        "title": "Super Mario Galaxia: Filmul",
+        "addressPass": true,
+        "streams": [
+          {
+            "host": "Byse",
+            "pass": true,
+            "format": "M3U8"
+          },
+          {
+            "host": "Streamtape",
+            "pass": false,
+            "error": "Streamtape duration mismatch/error clip: expected 5400s, actual 6250s"
+          }
+        ],
+        "ms": 1136
+      },
+      {
+        "title": "Inimă de fier",
+        "addressPass": true,
+        "streams": [
+          {
+            "host": "Streamtape",
+            "pass": true,
+            "format": "VIDEO"
+          }
+        ],
+        "ms": 577
+      }
+    ]
+  },
+  "fullProvider": [
+    {
+      "title": "Toy Story 5",
+      "tmdbId": 1084244,
+      "sources": [
+        "Byse",
+        "Streamtape"
+      ],
+      "lookupMs": 862
+    },
+    {
+      "title": "Ironheart",
+      "tmdbId": 114471,
+      "season": 1,
+      "episode": 2,
+      "sources": [
+        "Streamtape"
+      ],
+      "lookupMs": 487
+    }
+  ],
+  "physicalConfirmation": {
+    "websiteToyStory5": "User confirms all servers play with Romanian speech",
+    "exactPluginBuild": "Pending Mi Box playback test",
+    "otherTitlesAudio": "Not listened to; publisher language declarations only"
+  },
+  "excluded": {
+    "abyss": "Native resolver not implemented",
+    "morencius": "Not implemented",
+    "netu": "Deferred",
+    "sendvid": "Excluded",
+    "marioStreamtape": "Runtime mismatch: page5400s, media6250s; retained exclusion pending manual confirmation"
+  },
+  "knownLimitations": [
+    "Six title/episode cases, not a catalog-wide audit",
+    "MP4 duration alone does not prove film identity or spoken language",
+    "Short clips, missing runtime or runtime disagreement fail safely",
+    "Exact title/year matching can miss alternate metadata spellings"
+  ],
+  "officialRelease": "Unchanged v4",
+  "deseneleDublate": "Paused at user request after Bob returned no streams"
+}

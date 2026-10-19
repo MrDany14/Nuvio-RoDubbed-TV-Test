@@ -1,0 +1,84 @@
+{
+  "fixtures": [
+    {
+      "title": "Vaiana",
+      "type": "movie",
+      "expectedPage": "https://filmedublate.net/film-dublat/vaiana-filmul-dublat-in-romana",
+      "expectedWrapper": "https://filmedublate.net/embed/filmsrv.php?search=vaiana-filmul",
+      "data": {
+        "tmdbID": 1108427,
+        "movieName": "Vaiana",
+        "localTitle": "Vaiana",
+        "originalTitle": "Moana",
+        "releaseYear": 2026
+      }
+    },
+    {
+      "title": "Povestea jucăriilor 5",
+      "type": "movie",
+      "expectedPage": "https://filmedublate.net/desen-animat/povestea-jucariilor-5-dublat-in-romana",
+      "expectedWrapper": "https://filmedublate.net/embed/filmsrv.php?search=povestea-jucariilor-5",
+      "data": {
+        "tmdbID": 1084244,
+        "movieName": "Povestea jucăriilor 5",
+        "localTitle": "Povestea jucăriilor 5",
+        "originalTitle": "Toy Story 5",
+        "releaseYear": 2026
+      }
+    },
+    {
+      "title": "72 DE ORE",
+      "type": "movie",
+      "expectedPage": "https://filmedublate.net/film-dublat/72-de-ore-dublat-in-romana",
+      "expectedWrapper": "https://filmedublate.net/embed/filmsrv.php?search=72-de-ore",
+      "data": {
+        "tmdbID": 949838,
+        "movieName": "72 DE ORE",
+        "localTitle": "72 DE ORE",
+        "originalTitle": "72 HOURS",
+        "releaseYear": 2026
+      }
+    },
+    {
+      "title": "Iubire la birou",
+      "type": "movie",
+      "expectedPage": "https://filmedublate.net/film-dublat/iubire-la-birou-dublat-in-romana",
+      "expectedWrapper": "https://filmedublate.net/embed/filmsrv.php?search=iubire-la-birou",
+      "data": {
+        "tmdbID": 1358005,
+        "movieName": "Iubire la birou",
+        "localTitle": "Iubire la birou",
+        "originalTitle": "Office Romance",
+        "releaseYear": 2026
+      }
+    },
+    {
+      "title": "Super Mario Galaxia: Filmul",
+      "type": "movie",
+      "expectedPage": "https://filmedublate.net/desen-animat/super-mario-galaxia-filmul-dublat-in-romana",
+      "expectedWrapper": "https://filmedublate.net/embed/filmsrv.php?search=super-mario-galaxia-filmul",
+      "data": {
+        "tmdbID": 1226863,
+        "movieName": "Super Mario Galaxia: Filmul",
+        "localTitle": "Super Mario Galaxia: Filmul",
+        "originalTitle": "The Super Mario Galaxy Movie",
+        "releaseYear": 2026
+      }
+    },
+    {
+      "title": "Inimă de fier",
+      "type": "tv",
+      "expectedPage": "https://filmedublate.net/serial-dublat/inima-de-fier-dublat-in-romana",
+      "expectedWrapper": "https://filmedublate.net/embed/filmsrv.php?search=inima-de-fier-s01e02",
+      "data": {
+        "tmdbID": 114471,
+        "movieName": "Inimă de fier",
+        "localTitle": "Inimă de fier",
+        "originalTitle": "Ironheart",
+        "releaseYear": 2025,
+        "season": 1,
+        "episode": 2
+      }
+    }
+  ]
+}
