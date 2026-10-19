@@ -1,0 +1,20 @@
+[
+  {
+    "name": "RoDubbed [Sendvid Test]",
+    "internalName": "RoDubbedSendvidTest",
+    "description": "Official v4 baseline plus Sendvid MP4 from DozaAnimata. Netu and Playmogo excluded. Physical TV playback awaiting confirmation.",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "authors": [
+      "MrDany14"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "url": "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/sendvid/RoDubbedSendvidTest.cs3",
+    "fileSize": 32187,
+    "repositoryUrl": "https://github.com/MrDany14/Nuvio-RoDubbed-TV-Test"
+  }
+]
