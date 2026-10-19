@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "bytes": 35701,
+  "sha256": "d785d68ff95afd87d618ca54a93b5f6939b8014c01c4dd6aec172e5fada0c6f6",
+  "baseline": "Official v4 8d85d22",
+  "environment": "Android TV14 ART, actual Nuvio TV1.0.0 APK classes; app_process integration harness, not installed-app playback",
+  "unitTests": "PASS original host/language crypto fixtures, Doza/Desene safeguards, DD strict parent/year/language and OK.ru episode/file/title/duration checks",
+  "addresses": {
+    "passed": 13,
+    "total": 13,
+    "results": [
+      {
+        "title": "Bob Constructorul (2015) Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/bob-constructorul-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/bob-constructorul-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 500
+      },
+      {
+        "title": "Polly Pocket Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/polly-pocket-sezonul-4-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/polly-pocket-sezonul-4-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 655
+      },
+      {
+        "title": "Pompierul Sam Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/pompierul-sam-sezonul-14-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/pompierul-sam-sezonul-14-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 380
+      },
+      {
+        "title": "Vida, Doctorița Animalelor Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/vida-doctorita-animalelor-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/vida-doctorita-animalelor-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 1542
+      },
+      {
+        "title": "Violetta Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/violetta-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/violetta-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 366
+      },
+      {
+        "title": "Mickey și Piloții de Curse Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/mickey-si-pilotii-de-curse-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/mickey-si-pilotii-de-curse-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 1090
+      },
+      {
+        "title": "Mereu la Mijloc Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/mereu-la-mijloc-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/mereu-la-mijloc-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 378
+      },
+      {
+        "title": "Austin și Ally Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/austin-si-ally-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/austin-si-ally-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 349
+      },
+      {
+        "title": "Thomas și prietenii săi Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/thomas-si-prietenii-sai-sezonul-18-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/thomas-si-prietenii-sai-sezonul-18-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 364
+      },
+      {
+        "title": "Familia Green la oraș Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/familia-green-la-oras-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/familia-green-la-oras-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 346
+      },
+      {
+        "title": "Sam Fox: Peripeții Extreme Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/sam-fox-peripetii-extreme-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/sam-fox-peripetii-extreme-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 1075
+      },
+      {
+        "title": "O viață minunată pe punte Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/o-viata-minunata-pe-punte-sezonul-2-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/o-viata-minunata-pe-punte-sezonul-2-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 361
+      },
+      {
+        "title": "Just Like Me! Seria Dublată în Română",
+        "expected": "https://deseneledublate.com/episoade/just-like-me-sezonul-1-episodul-1-dublat-in-romana/",
+        "actual": "https://deseneledublate.com/episoade/just-like-me-sezonul-1-episodul-1-dublat-in-romana/",
+        "pass": true,
+        "ms": 365
+      }
+    ]
+  },
+  "streams": {
+    "passed": 4,
+    "total": 4,
+    "results": [
+      {
+        "title": "Bob Constructorul (2015) Seria Dublată în Română",
+        "pass": true,
+        "host": "OK.ru",
+        "quality": 720,
+        "type": "VIDEO",
+        "ms": 1463
+      },
+      {
+        "title": "Polly Pocket Seria Dublată în Română",
+        "pass": true,
+        "host": "OK.ru",
+        "quality": 720,
+        "type": "VIDEO",
+        "ms": 1200
+      },
+      {
+        "title": "Pompierul Sam Seria Dublată în Română",
+        "pass": true,
+        "host": "OK.ru",
+        "quality": 480,
+        "type": "VIDEO",
+        "ms": 1029
+      },
+      {
+        "title": "Vida, Doctorița Animalelor Seria Dublată în Română",
+        "pass": true,
+        "host": "OK.ru",
+        "quality": 480,
+        "type": "VIDEO",
+        "ms": 2197
+      }
+    ]
+  },
+  "fullProvider": {
+    "title": "Bob Constructorul (2015)",
+    "tmdbId": 44396,
+    "season": 1,
+    "episode": 1,
+    "sources": [
+      "OK.ru | RO Dub | DeseneleDublate"
+    ],
+    "lookupMs": 8240,
+    "metadataToNativeVideoLink": true
+  },
+  "existingHostRegression": {
+    "title": "Toy Story5",
+    "tmdbId": 1084244,
+    "sources": [
+      "Byse",
+      "SeekStreaming",
+      "StreamP2P"
+    ],
+    "lookupMs": 2578,
+    "playlistAndInitialSegmentChecks": "PASS"
+  },
+  "physicalConfirmation": {
+    "websiteBobS1E1": "User confirms plays and Romanian speech",
+    "exactTestBuildPlayback": false,
+    "otherEpisodeAudio": "Not listened to; publisher declaration and host episode identity only"
+  },
+  "excluded": {
+    "streamtape": "User confirms the ToyStory5 copy is English-only with no Romanian track; no Streamtape integration enabled",
+    "netu": "Still excluded",
+    "sendvid": "Still excluded",
+    "playmogo": "Still excluded"
+  },
+  "knownLimitations": [
+    "DeseneleDublate addition currently supports OK.ru series only",
+    "13 independently mapped series address cases; Alex si trupa metadata identity/date mismatch not mapped",
+    "MP4 metadata must be within bounded header; otherwise fail safely",
+    "Publisher/host labels do not guarantee spoken audio; more physical playback checks welcome"
+  ],
+  "officialRelease": "Unchanged at v4"
+}

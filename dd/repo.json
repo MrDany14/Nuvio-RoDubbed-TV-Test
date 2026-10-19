@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed DeseneleDublate Test",
+  "description": "Official v4 baseline plus Romanian-dubbed DeseneleDublate series through OK.ru.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/dd/plugins.json"
+  ]
+}

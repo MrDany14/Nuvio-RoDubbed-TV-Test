@@ -1,0 +1,199 @@
+{
+  "fixtures": [
+    {
+      "title": "Bob Constructorul (2015) Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/bob-constructorul-2015-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/bob-constructorul-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Scoop e la mare înălțime",
+      "data": {
+        "tmdbID": 44396,
+        "localTitle": "Bob Constructorul",
+        "movieName": "Bob Constructorul",
+        "originalTitle": "Bob the Builder",
+        "releaseYear": 2015,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Polly Pocket Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/polly-pocket-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/polly-pocket-sezonul-4-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Incredibilul tătic micșorat",
+      "data": {
+        "tmdbID": 89095,
+        "localTitle": "Polly Pocket: Puterea celor mici",
+        "movieName": "Polly Pocket: Puterea celor mici",
+        "originalTitle": "Polly Pocket",
+        "releaseYear": 2018,
+        "season": 4,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Pompierul Sam Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/pompierul-sam-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/pompierul-sam-sezonul-14-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Proiectul apicol din Pontypandy",
+      "data": {
+        "tmdbID": 5200,
+        "localTitle": "Pompierul Sam",
+        "movieName": "Pompierul Sam",
+        "originalTitle": "Sam Tân",
+        "releaseYear": 1987,
+        "season": 14,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Vida, Doctorița Animalelor Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/vida-doctorita-animalelor-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/vida-doctorita-animalelor-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Koa adoră dulciurile",
+      "data": {
+        "tmdbID": 228436,
+        "localTitle": "Vida - Micuța Doctoriță Veterinară",
+        "movieName": "Vida - Micuța Doctoriță Veterinară",
+        "originalTitle": "Vida the Vet",
+        "releaseYear": 2023,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Violetta Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/violetta-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/violetta-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Episodul 1",
+      "data": {
+        "tmdbID": 61720,
+        "localTitle": "Violetta",
+        "movieName": "Violetta",
+        "originalTitle": "Violetta",
+        "releaseYear": 2012,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Mickey și Piloții de Curse Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/mickey-si-pilotii-de-curse-sezonul-1-dublat-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/mickey-si-pilotii-de-curse-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Cauciucul buclucaș al lui Mickey!/Pisica neastâmpărată",
+      "data": {
+        "tmdbID": 70823,
+        "localTitle": "Mickey and the Roadster Racers",
+        "movieName": "Mickey and the Roadster Racers",
+        "originalTitle": "Mickey and the Roadster Racers",
+        "releaseYear": 2017,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Mereu la Mijloc Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/mereu-la-mijloc-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/mereu-la-mijloc-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Mereu la mijloc",
+      "data": {
+        "tmdbID": 65291,
+        "localTitle": "Mereu la mijloc",
+        "movieName": "Mereu la mijloc",
+        "originalTitle": "Stuck in the Middle",
+        "releaseYear": 2016,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Austin și Ally Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/austin-si-ally-2011-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/austin-si-ally-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Cântăreți si compozitori",
+      "data": {
+        "tmdbID": 35279,
+        "localTitle": "Austin & Ally",
+        "movieName": "Austin & Ally",
+        "originalTitle": "Austin & Ally",
+        "releaseYear": 2011,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Thomas și prietenii săi Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/49672/",
+      "expectedPage": "https://deseneledublate.com/episoade/thomas-si-prietenii-sai-sezonul-18-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Te poți bizui pe bătrânul Edward",
+      "data": {
+        "tmdbID": 2304,
+        "localTitle": "Thomas și prietenii săi",
+        "movieName": "Thomas și prietenii săi",
+        "originalTitle": "Thomas & Friends",
+        "releaseYear": 1984,
+        "season": 18,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Familia Green la oraș Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/familia-green-la-oras-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/familia-green-la-oras-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Bun venit acasă!/Găina spațială",
+      "data": {
+        "tmdbID": 80587,
+        "localTitle": "Familia Green la oraș",
+        "movieName": "Familia Green la oraș",
+        "originalTitle": "Big City Greens",
+        "releaseYear": 2018,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Sam Fox: Peripeții Extreme Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/sam-fox-peripetii-extreme-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/sam-fox-peripetii-extreme-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Momeală pentru rechini",
+      "data": {
+        "tmdbID": 71530,
+        "localTitle": "Sam Fox: Extreme Adventures",
+        "movieName": "Sam Fox: Extreme Adventures",
+        "originalTitle": "Sam Fox: Extreme Adventures",
+        "releaseYear": 2014,
+        "season": 1,
+        "episode": 1
+      }
+    },
+    {
+      "title": "O viață minunată pe punte Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/o-viata-minunata-pe-punte-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/o-viata-minunata-pe-punte-sezonul-2-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Spionul care m-a împins",
+      "data": {
+        "tmdbID": 15079,
+        "localTitle": "O viață minunată pe punte",
+        "movieName": "O viață minunată pe punte",
+        "originalTitle": "The Suite Life on Deck",
+        "releaseYear": 2008,
+        "season": 2,
+        "episode": 1
+      }
+    },
+    {
+      "title": "Just Like Me! Seria Dublată în Română",
+      "expectedTitleUrl": "https://deseneledublate.com/serial/just-like-me-seria-dublata-in-romana/",
+      "expectedPage": "https://deseneledublate.com/episoade/just-like-me-sezonul-1-episodul-1-dublat-in-romana/",
+      "episodeTitle": "Episodul 1",
+      "data": {
+        "tmdbID": 102511,
+        "localTitle": "Just Like Me!",
+        "movieName": "Just Like Me!",
+        "originalTitle": "Just Like Me!",
+        "releaseYear": 2016,
+        "season": 1,
+        "episode": 1
+      }
+    }
+  ]
+}

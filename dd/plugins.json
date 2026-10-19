@@ -1,0 +1,20 @@
+[
+  {
+    "name": "RoDubbed [DD Test]",
+    "internalName": "RoDubbedDDTest",
+    "description": "One native TV provider with existing DeseneFaine/Doza hosts plus DeseneleDublate OK.ru series. Up to three streams. Netu, Streamtape and Sendvid excluded.",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "authors": [
+      "MrDany14"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "url": "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/dd/RoDubbedDDTest.cs3",
+    "fileSize": 35701,
+    "repositoryUrl": "https://github.com/MrDany14/Nuvio-RoDubbed-TV-Test"
+  }
+]
