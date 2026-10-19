@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed OK.ru Test",
+  "description": "Isolated DeseneleDublate OK.ru movie and series test. Spoken Romanian audio awaits user confirmation.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/dd-okru/plugins.json"
+  ]
+}

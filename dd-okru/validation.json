@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-19",
+  "sha256": "924e509cc8dbda8a5581997de3526d4b27d859bcb44f83e07951f8882ad30f19",
+  "bytes": 49421,
+  "discovery": {
+    "results": [
+      {
+        "title": "Masca magică",
+        "candidates": 1,
+        "pass": true,
+        "quality": 1080,
+        "type": "VIDEO",
+        "site": "DeseneleDublate",
+        "ms": 1414
+      },
+      {
+        "title": "High School Musical 1",
+        "candidates": 1,
+        "pass": false,
+        "error": "java.lang.Exception: OK.ru player metadata unavailable",
+        "ms": 925
+      },
+      {
+        "title": "Liceul Degrassi",
+        "candidates": 1,
+        "pass": true,
+        "quality": 720,
+        "type": "VIDEO",
+        "site": "DeseneleDublate",
+        "ms": 1369
+      },
+      {
+        "title": "Kirby Desenatorul",
+        "candidates": 1,
+        "pass": true,
+        "quality": 720,
+        "type": "VIDEO",
+        "site": "DeseneleDublate",
+        "ms": 1640
+      }
+    ]
+  },
+  "independentEpisodeIdentity": [
+    {
+      "title": "Liceul Degrassi",
+      "season": 10,
+      "episode": 9,
+      "titleFromIndependentMetadata": "I Just Don't Know What To Do With Myself (1)",
+      "publisherTitle": "Nu știu ce să mă fac (partea întâi)",
+      "runtime": null
+    },
+    {
+      "title": "Kirby Desenatorul",
+      "season": 3,
+      "episode": 8,
+      "titleFromIndependentMetadata": "Dr. Mac ‘n Cheese’s Labyrinth of Horrors",
+      "publisherTitle": "Dr. Macaroane cu Brânză în labirintul de groază",
+      "runtime": 23
+    }
+  ],
+  "providerChecks": [
+    {
+      "title": "Masca magică",
+      "pass": true,
+      "callbacks": 1,
+      "ms": 2004
+    },
+    {
+      "title": "Liceul Degrassi",
+      "pass": true,
+      "callbacks": 1,
+      "ms": 1075
+    },
+    {
+      "title": "Kirby Desenatorul",
+      "pass": true,
+      "callbacks": 1,
+      "ms": 1713
+    }
+  ],
+  "decoded": [
+    {
+      "title": "Masca magică",
+      "pass": true,
+      "durationMs": 6206508,
+      "audio": "yes",
+      "video": "yes",
+      "decodedFrames": 2,
+      "differentFrames": true
+    },
+    {
+      "title": "Liceul Degrassi",
+      "pass": true,
+      "durationMs": 1254458,
+      "audio": "yes",
+      "video": "yes",
+      "decodedFrames": 2,
+      "differentFrames": true
+    },
+    {
+      "title": "Kirby Desenatorul",
+      "pass": true,
+      "durationMs": 1323475,
+      "audio": "yes",
+      "video": "yes",
+      "decodedFrames": 2,
+      "differentFrames": true
+    }
+  ],
+  "playbackAttempts": [
+    {
+      "sample": 0,
+      "output": "[DD] title=https://deseneledublate.com/desen/masca-magica-2020-dublat-in-romana/\r\nPLAYBACK FAIL java.lang.AssertionError: Playback did not advance: 59734 -> 60103 true"
+    },
+    {
+      "sample": 2,
+      "output": "[DD] title=https://deseneledublate.com/serial/liceul-degrassi-seria-dublata-in-romana/\r\n{\"title\":\"Liceul Degrassi\",\"pass\":true,\"player\":\"Android MediaPlayer, muted\",\"seekCompleted\":true,\"durationMs\":1254458,\"positionBeforeMs\":57858,\"positionMs\":60453,\"videoWidth\":1280,\"videoHeight\":720,\"isPlaying\":true}"
+    },
+    {
+      "sample": 3,
+      "output": "[DD] title=https://deseneledublate.com/serial/kirby-buckets-seria-dublata-in-romana/\r\n{\"title\":\"Kirby Desenatorul\",\"pass\":true,\"player\":\"Android MediaPlayer, muted\",\"seekCompleted\":true,\"durationMs\":1323475,\"positionBeforeMs\":59978,\"positionMs\":61956,\"videoWidth\":1280,\"videoHeight\":720,\"isPlaying\":true}"
+    }
+  ],
+  "playbackLimitation": "Emulator post-seek progress inconsistent: Degrassi and Kirby passed after settling; movie passed an initial run but failed a later repeat. Physical TV playback confirmation required.",
+  "spokenRomanian": "Awaiting user confirmation; automated playback muted"
+}

@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process'),crypto=require('node:crypto');
+process.chdir(__dirname);require('./make-compile-stubs.cjs');
+const bin=process.argv[2]||'C:/Program Files/Android/Android Studio/jbr/bin';
+const sources=['ByseClient','BysePow','NativeMetadata','NativeHttp','RomanianAudio','NativeCatalog','ResolvedStream','HlsProbe','SharedPlayerClient','VoeClient','VidmolyClient','DozaCatalog','FdCatalog','PlaymogoClient','PlaymogoHttp','AbyssClient','StreamtapeClient','Mp4Probe','DdTitleCatalog','DdCatalog','OkruClient','RoDubbedProvider','RoDubbedPlugin'];
+const run=(exe,args)=>cp.execFileSync(path.join(bin,exe+'.exe'),args,{stdio:'inherit'});
+run('javac',['--release','8','-Xlint:-options','-cp','json.jar;jsoup.jar',...sources.map(x=>x+'.java'),'stubs/kotlin/jvm/functions/Function1.java','stubs/kotlin/coroutines/Continuation.java','stubs/com/lagradost/cloudstream3/metaproviders/TmdbProvider.java']);
+const classes=fs.readdirSync('.').filter(file=>file.endsWith('.class')&&sources.some(name=>file===name+'.class'||file.startsWith(name+'$')));
+run('java',['-cp','r8.jar','com.android.tools.r8.D8','--min-api','24','--output','RoDubbed.cs3.zip',...classes]);
+run('jar',['--update','--file','RoDubbed.cs3.zip','manifest.json']);fs.copyFileSync('RoDubbed.cs3.zip','RoDubbed.cs3');fs.copyFileSync('RoDubbed.cs3','../RoDubbed.cs3');
+console.log('Built official release',fs.statSync('RoDubbed.cs3').size,'bytes, SHA256',crypto.createHash('sha256').update(fs.readFileSync('RoDubbed.cs3')).digest('hex'));
