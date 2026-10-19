@@ -1,0 +1,8 @@
+{
+  "name": "RoDubbed Dood Test",
+  "description": "Isolated DeseneFaine Dood/Playmogo test. Official plugin unchanged. Host CAPTCHA may temporarily prevent resolution.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/MrDany14/Nuvio-RoDubbed-TV-Test/main/dood-df/plugins.json"
+  ]
+}

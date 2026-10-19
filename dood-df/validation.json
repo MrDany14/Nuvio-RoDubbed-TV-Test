@@ -1,0 +1,516 @@
+{
+  "version": 1,
+  "bytes": 54510,
+  "sha256": "322a6764cd6a6b6bafae03097cb6a087c63703df29b27ed5ec14a58459fc7283",
+  "scope": "Test provider returns only DF Dood/Playmogo. Official plugin and catalog untouched.",
+  "playback": [
+    {
+      "title": "101 dalmațieni",
+      "pass": true,
+      "player": "Android MediaPlayer, muted",
+      "seekCompleted": true,
+      "durationMs": 4756097,
+      "positionBeforeMs": 57450,
+      "positionMs": 59653,
+      "videoWidth": 960,
+      "videoHeight": 720,
+      "isPlaying": true
+    },
+    {
+      "title": "Clifford, Marele Câine Roșu",
+      "pass": true,
+      "player": "Android MediaPlayer, muted",
+      "seekCompleted": true,
+      "durationMs": 5785760,
+      "positionBeforeMs": 52172,
+      "positionMs": 54374,
+      "videoWidth": 1440,
+      "videoHeight": 720,
+      "isPlaying": true
+    },
+    {
+      "title": "H2O:  Adaugă apă",
+      "pass": true,
+      "player": "Android MediaPlayer, muted",
+      "seekCompleted": true,
+      "durationMs": 1339371,
+      "positionBeforeMs": 59536,
+      "positionMs": 61738,
+      "videoWidth": 1280,
+      "videoHeight": 720,
+      "isPlaying": true
+    },
+    {
+      "title": "Tinerii justițiari",
+      "pass": false,
+      "error": "Player reports video unavailable"
+    },
+    {
+      "title": "Descendenții",
+      "pass": true,
+      "player": "Android MediaPlayer, muted",
+      "seekCompleted": true,
+      "durationMs": 6713440,
+      "positionBeforeMs": 59567,
+      "positionMs": 61768,
+      "videoWidth": 720,
+      "videoHeight": 400,
+      "isPlaying": true
+    }
+  ],
+  "audit": [
+    {
+      "title": "101 dalmațieni",
+      "embed": "https://doodstream.com/e/a1cznx16w3t0",
+      "page": "https://desenefaine.com/film/101-dalmatieni",
+      "resolved": true,
+      "ms": 633
+    },
+    {
+      "title": "Clifford, Marele Câine Roșu",
+      "embed": "https://doodstream.com/e/nhmrbzstcdvt",
+      "page": "https://desenefaine.com/film/clifford-marele-caine-rosu",
+      "resolved": true,
+      "ms": 479
+    },
+    {
+      "title": "H2O:  Adaugă apă",
+      "embed": "https://doodstream.com/e/d4cggz0fvntf",
+      "page": "https://desenefaine.com/epi/h2o-adauga-apa-sezonul-1-episodul-1/",
+      "resolved": true,
+      "ms": 480
+    },
+    {
+      "title": "Tinerii justițiari",
+      "embed": "https://doodstream.com/e/es5wu0tvgwrs",
+      "page": "https://desenefaine.com/epi/tinerii-justitiari-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 131
+    },
+    {
+      "title": "Descendenții",
+      "embed": "https://doodstream.com/e/di03amxd1ob3",
+      "page": "https://desenefaine.com/film/descendentii",
+      "resolved": true,
+      "ms": 450
+    },
+    {
+      "title": "Neînfricată",
+      "embed": "https://doodstream.com/e/piecf34i98xm",
+      "page": "https://desenefaine.com/film/neinfricata",
+      "resolved": true,
+      "ms": 434
+    },
+    {
+      "title": "Un băiat minunat",
+      "embed": "https://doodstream.com/e/4n8ud8wxtfpp",
+      "page": "https://desenefaine.com/film/un-baiat-minunat",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 138
+    },
+    {
+      "title": "Paddington",
+      "embed": "https://doodstream.com/e/m348ei7pq2bo",
+      "page": "https://desenefaine.com/film/paddington",
+      "resolved": false,
+      "error": "java.lang.Exception: Not MP4 media",
+      "ms": 545
+    },
+    {
+      "title": "Sonic Ariciul 2",
+      "embed": "https://doodstream.com/e/ayt0yn92ratq",
+      "page": "https://desenefaine.com/film/sonic-ariciul-2",
+      "resolved": true,
+      "ms": 824
+    },
+    {
+      "title": "Lumea Miraculoasă – New York, Eroii Uniți",
+      "embed": "https://doodstream.com/e/mjn259si0mmw",
+      "page": "https://desenefaine.com/film/lumea-miraculoasa-new-york-eroii-uniti",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 135
+    },
+    {
+      "title": "Lumea Miraculoasă: Shanghai, O legendă a Doamnei Dragon",
+      "embed": "https://doodstream.com/e/m0lh06mtxlw9",
+      "page": "https://desenefaine.com/film/lumea-miraculoasa-shanghai-o-legenda-a-doamnei-dragon",
+      "resolved": true,
+      "ms": 607
+    },
+    {
+      "title": "Chip și Dale: Salvatorii",
+      "embed": "https://doodstream.com/e/q0lz5oukiscn",
+      "page": "https://desenefaine.com/film/chip-n-dale-rescue-rangers",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 145
+    },
+    {
+      "title": "Ascensiunea Țestoaselor Ninja: Filmul",
+      "embed": "https://doodstream.com/e/fx414z5l8wo0",
+      "page": "https://desenefaine.com/film/ascensiunea-testoaselor-ninja-filmul",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 137
+    },
+    {
+      "title": "Doamna Și Vagabondul Filmul",
+      "embed": "https://doodstream.com/e/7t2bjswas54z",
+      "page": "https://desenefaine.com/film/doamna-si-vagabondul-2019",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 137
+    },
+    {
+      "title": "Barbie Epic Road Trip",
+      "embed": "https://doodstream.com/e/y4kjxstgqln3",
+      "page": "https://desenefaine.com/film/barbie-epic-road-trip",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 140
+    },
+    {
+      "title": "Misterul mumiei",
+      "embed": "https://doodstream.com/e/rpuococn6p9f",
+      "page": "https://desenefaine.com/film/misterul-mumiei",
+      "resolved": true,
+      "ms": 537
+    },
+    {
+      "title": "Sunt un mic ticălos",
+      "embed": "https://doodstream.com/e/kaj18t23tr23",
+      "page": "https://desenefaine.com/film/sunt-un-mic-ticalos",
+      "resolved": true,
+      "ms": 504
+    },
+    {
+      "title": "Barbie: Puterea Sirenei",
+      "embed": "https://doodstream.com/e/wk6vg7rnz30o",
+      "page": "https://desenefaine.com/film/barbie-mermaid-power",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 147
+    },
+    {
+      "title": "Mummies",
+      "embed": "https://doodstream.com/e/38apxtg8d3rh",
+      "page": "https://desenefaine.com/film/mummies",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 136
+    },
+    {
+      "title": "Hai hui în timp",
+      "embed": "https://doodstream.com/e/6rrktese4xej",
+      "page": "https://desenefaine.com/film/hai-hui-in-timp",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 133
+    },
+    {
+      "title": "Cronicile din Narnia: Leul, vrăjitoarea și dulapul",
+      "embed": "https://doodstream.com/e/3ufh642biwk6",
+      "page": "https://desenefaine.com/film/cronicile-din-narnia-leul-vrajitoarea-si-dulapul",
+      "resolved": true,
+      "ms": 510
+    },
+    {
+      "title": "Regele Maimuță",
+      "embed": "https://doodstream.com/e/y41rrhgskcnl",
+      "page": "https://desenefaine.com/film/regele-maimuta",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 135
+    },
+    {
+      "title": "Legendele Templului Ascuns",
+      "embed": "https://doodstream.com/e/57xm29iizhr3",
+      "page": "https://desenefaine.com/film/legendele-templului-ascuns",
+      "resolved": false,
+      "error": "java.net.MalformedURLException: no protocol: RELOAD",
+      "ms": 262
+    },
+    {
+      "title": "Descendenții: Ascensiunea lui Red",
+      "embed": "https://doodstream.com/e/b82hmrob672v",
+      "page": "https://desenefaine.com/film/descendentii-ascensiunea-lui-red",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 134
+    },
+    {
+      "title": "Paddington 2",
+      "embed": "https://doodstream.com/e/q1bubaa136ew",
+      "page": "https://desenefaine.com/film/paddington-2",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 142
+    },
+    {
+      "title": "Paddington în Peru",
+      "embed": "https://doodstream.com/e/oszeheutizty",
+      "page": "https://desenefaine.com/film/paddington-in-peru",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 131
+    },
+    {
+      "title": "Panda Bear in Africa",
+      "embed": "https://doodstream.com/e/lqzew8vb799u",
+      "page": "https://desenefaine.com/film/panda-bear-in-africa",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 136
+    },
+    {
+      "title": "Prințesa și monstrul fermecat",
+      "embed": "https://doodstream.com/e/wst58omvy47v",
+      "page": "https://desenefaine.com/film/printesa-si-monstrul-fermecat",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 142
+    },
+    {
+      "title": "Minecraft: Filmul",
+      "embed": "https://doodstream.com/e/ora77a72prao",
+      "page": "https://desenefaine.com/film/minecraft-filmul",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 145
+    },
+    {
+      "title": "Shrek",
+      "embed": "https://doodstream.com/e/5bo5uv83mchu",
+      "page": "https://desenefaine.com/film/shrek",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 137
+    },
+    {
+      "title": "Puișorii: Marea aventură",
+      "embed": "https://doodstream.com/e/ubsvotu0kowm",
+      "page": "https://desenefaine.com/film/puisorii-marea-aventura",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 142
+    },
+    {
+      "title": "Little Eggs: A Frozen Rescue",
+      "embed": "https://doodstream.com/e/lesfk3pi8zhr",
+      "page": "https://desenefaine.com/film/little-eggs-a-frozen-rescue",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 150
+    },
+    {
+      "title": "Dolittle",
+      "embed": "https://doodstream.com/e/ld0wxh96qfsw",
+      "page": "https://desenefaine.com/film/dolittle",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 140
+    },
+    {
+      "title": "Hai, România!",
+      "embed": "https://doodstream.com/e/fh5smu76mzfz",
+      "page": "https://desenefaine.com/film/hai-romania",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 360
+    },
+    {
+      "title": "Plan de lecție",
+      "embed": "https://doodstream.com/e/2iudo6qvlyim",
+      "page": "https://desenefaine.com/film/plan-de-lectie",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 153
+    },
+    {
+      "title": "Dora în căutarea lui Sol Dorado",
+      "embed": "https://doodstream.com/e/66t8pzgkpnrg",
+      "page": "https://desenefaine.com/film/dora-and-the-search-for-sol-dorado",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 139
+    },
+    {
+      "title": "Dincolo de Univers",
+      "embed": "https://doodstream.com/e/qm4bv8xycpig",
+      "page": "https://desenefaine.com/film/dincolo-de-univers",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 143
+    },
+    {
+      "title": "Cum să îți dresezi dragonul Filmul",
+      "embed": "https://doodstream.com/e/0kr6b9exvztf",
+      "page": "https://desenefaine.com/film/cum-sa-iti-dresezi-dragonul-filmul",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 143
+    },
+    {
+      "title": "Avatar: Legenda lui Aang",
+      "embed": "https://doodstream.com/e/duzt43jqbhke",
+      "page": "https://desenefaine.com/epi/avatar-legenda-lui-aang-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 143
+    },
+    {
+      "title": "Avatar: Legenda Lui Korra",
+      "embed": "https://doodstream.com/e/5okyegs3lh4q",
+      "page": "https://desenefaine.com/epi/avatar-legenda-lui-korra-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo episode identity mismatch",
+      "ms": 138
+    },
+    {
+      "title": "Ms. Marvel",
+      "embed": "https://doodstream.com/e/wlnkdy3gas14",
+      "page": "https://desenefaine.com/epi/ms-marvel-s1-ep1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 148
+    },
+    {
+      "title": "Kung Fu Panda: Cavalerul dragon",
+      "embed": "https://doodstream.com/e/1s9x0njokfp3",
+      "page": "https://desenefaine.com/epi/kung-fu-panda-cavalerul-dragon-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 146
+    },
+    {
+      "title": "Wednesday",
+      "embed": "https://doodstream.com/e/l7k2ry0onu8e",
+      "page": "https://desenefaine.com/epi/wednesday-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 136
+    },
+    {
+      "title": "Hero Inside",
+      "embed": "https://doodstream.com/e/9sdj6q47x32w",
+      "page": "https://desenefaine.com/epi/hero-inside-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 136
+    },
+    {
+      "title": "Uimitoarea lume a lui Gumball",
+      "embed": "https://doodstream.com/e/fhb5bdcmirjb",
+      "page": "https://desenefaine.com/epi/uimitoarea-lume-a-lui-gumball-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo episode identity mismatch",
+      "ms": 138
+    },
+    {
+      "title": "Cei șapte ursuleți",
+      "embed": "https://doodstream.com/e/6hawx3uqpiyj",
+      "page": "https://desenefaine.com/epi/cei-sapte-ursuleti-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 141
+    },
+    {
+      "title": "Eyes of Wakanda",
+      "embed": "https://doodstream.com/e/s83njzyobpca",
+      "page": "https://desenefaine.com/epi/eyes-of-wakanda-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 136
+    },
+    {
+      "title": "Secretul lui Nick",
+      "embed": "https://doodstream.com/e/8qojzsaoc3vq",
+      "page": "https://desenefaine.com/epi/secretul-lui-nick-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 132
+    },
+    {
+      "title": "Ghidul pentru crimă al unei fete cuminți",
+      "embed": "https://doodstream.com/e/b0fcie0x7abj",
+      "page": "https://desenefaine.com/epi/ghidul-pentru-crima-al-unei-fete-cuminti-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 136
+    },
+    {
+      "title": "Clubul de scufundări",
+      "embed": "https://doodstream.com/e/s7pvz7veglae",
+      "page": "https://desenefaine.com/epi/clubul-de-scufundari-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 130
+    },
+    {
+      "title": "Legenda lui Tarzan",
+      "embed": "https://doodstream.com/e/x2c10ad3ti85",
+      "page": "https://desenefaine.com/epi/legenda-lui-tarzan-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 140
+    },
+    {
+      "title": "Asterix și Obelix: Bătălia dintre șefi",
+      "embed": "https://doodstream.com/e/5c0gfkxi4kbr",
+      "page": "https://desenefaine.com/epi/asterix-si-obelix-batalia-dintre-sefi-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 133
+    },
+    {
+      "title": "Războiul Stelelor: Povești din lumea underground",
+      "embed": "https://doodstream.com/e/zrkuondshfh0",
+      "page": "https://desenefaine.com/epi/razboiul-stelelor-povesti-din-lumea-underground-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 143
+    },
+    {
+      "title": "Pariu",
+      "embed": "https://doodstream.com/e/t3y3vh9mmd9k",
+      "page": "https://desenefaine.com/epi/pariu-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 139
+    },
+    {
+      "title": "My Little Pony: Redescoperă magia",
+      "embed": "https://doodstream.com/e/1y5n3y2je963",
+      "page": "https://desenefaine.com/epi/my-little-pony-redescopera-magia-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 141
+    },
+    {
+      "title": "Casa de păpuși a lui Gabby",
+      "embed": "https://doodstream.com/e/c6nf1ix1zav8",
+      "page": "https://desenefaine.com/epi/casa-de-papusi-a-lui-gabby-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo video unavailable",
+      "ms": 132
+    },
+    {
+      "title": "Haideți, Tineri Titani!",
+      "embed": "https://doodstream.com/e/hvhl25zd5ztm",
+      "page": "https://desenefaine.com/epi/haideti-tineri-titani-sezonul-1-episodul-1/",
+      "resolved": false,
+      "error": "java.lang.Exception: Playmogo handshake unavailable",
+      "ms": 133
+    }
+  ],
+  "unitTests": [
+    "Dood DF provenance, alias, language and episode guards passed",
+    "Existing Playmogo handshake/CDN/mirror guards passed",
+    "Existing DF address/year/episode guards passed"
+  ],
+  "currentLimit": "After bulk probing, host returned a CAPTCHA page without a normal playback handshake; further host requests stopped. This test package does not solve or bypass CAPTCHA.",
+  "audioLimit": "Emulator player tests muted; Romanian dubbing based on publisher declarations."
+}
